@@ -17,13 +17,15 @@ export const heroData = {
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile-square.jpg',
   paragraphOne:
-    'Seeing inefficiencies hurts me, and my mind can’t help but start working out how to optimize things. I started my web career as a WordPress developer and loving the never-ending challenges of the web, started moving into more challenging territory & getting into the nitty-gritty of coding. This requires all the things I love, optimizing, organizing, problem-solving, planning, having clear objectives and thinking out of the box.',
+    'Seeing inefficiencies hurts me, and my mind can’t help but start working out how to optimize things. I started my web career as a WordPress developer and loving the never-ending challenges of the web, started moving into more challenging territory & getting into the nitty-gritty of coding.',
   paragraphTwo:
+    'This requires all the things I love, optimizing, organizing, problem-solving, planning, having clear objectives and thinking out of the box.',
+
+  paragraphThree:
     'When I’m not continuing my coding journey, I love doing woodwork, trekking & travelling, and playing tabletop games with my friends.',
-  paragraphThree: '',
-  resume: '', // if no resume, the button will not show up
+  resume: 'https://www.visualcv.com/alejandro-r-valdivia/', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
