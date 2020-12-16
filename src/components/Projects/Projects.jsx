@@ -2,6 +2,7 @@ import React, { useContext, useEffect, useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import Tilt from 'react-tilt';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
 import Title from '../Title/Title';
 import ProjectImg from '../Image/ProjectImg';
@@ -111,6 +112,11 @@ const Projects = () => {
             );
           })}
         </div>
+        <span className="back-to-top-dark">
+          <Link to="hero" smooth duration={1000}>
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" color="black" />
+          </Link>
+        </span>
       </Container>
     </section>
   );
