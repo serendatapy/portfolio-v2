@@ -36,7 +36,7 @@ export const projectsData = [
       'In over 150 cities worldwide, young girls are fighting street harassment by literally chalking catcalls on the sidewalk to raise awareness. Catcalls of Amsterdam is a web application to visualize, report and manage data on catcalling. Made for @CatcallsofAms, a local Instagram-based initiative part of a global "chalk back" movement.',
     info2:
       'Working in a team of 2, my job in this project consists in Adding features with React & Material UI, making website responsive, refactoring code and making it more maintainable and robust, managing deployment and implementing tests with Jest',
-    url: 'https://catcallsofams.netlify.app/catcalls',
+    url: 'https://catcallsofams.netlify.app',
     repo: 'https://github.com/serendatapy/catcall', // if no repo, the button will not show up
   },
   {
