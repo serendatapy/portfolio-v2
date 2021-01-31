@@ -35,19 +35,9 @@ export const projectsData = [
     info:
       'In over 150 cities worldwide, young girls are fighting street harassment by literally chalking catcalls on the sidewalk to raise awareness. Catcalls of Amsterdam is a web application to visualize, report and manage data on catcalling. Made for @CatcallsofAms, a local Instagram-based initiative part of a global "chalk back" movement.',
     info2:
-      'Working in a team of 2, my job in this project consists in Adding features with React & Material UI, making website responsive, refactoring code and making it more maintainable and robust, managing deployment and implementing tests with Jest',
+      'Working in a team of 2, my job in this project consists in adding features with React & Material UI, making website responsive, making the code more maintainable and robust, managing deployment and implemention of tests with Jest',
     url: 'https://catcallsofams.netlify.app',
-    repo: 'https://github.com/serendatapy/catcall', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
-    img: 'huntdora-mockup.png',
-    title: 'Huntdora',
-    info:
-      'Job search bringing you down? Huntdora is a job searching app which focuses on uplifting the job seeker through design colours and user experience.',
-    info2: `Solo Project built with ReactJS - Typescript - Material UI - Progressive web app ( PWA ) - Express.js - MongoDB - Auth0 JWT - Node.js`,
-    url: 'https://huntdora.netlify.app/',
-    repo: 'https://github.com/serendatapy/huntdora', // if no repo, the button will not show up
+    repo: 'https://github.com/lisannekraal/catcall', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
@@ -59,6 +49,16 @@ export const projectsData = [
       'Collaborated in a Team of 5 to develop an MVP proof of concept, I designed & built the backend with Sequelize, GraphQL Apollo Server, PostgreSQL, WebSockets, Node.js',
     url: 'https://www.youtube.com/watch?v=LzgYNAu8jeA&feature=youtu.be',
     repo: 'https://github.com/Snugles/bid-local', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'huntdora-mockup.png',
+    title: 'Huntdora',
+    info:
+      'Job search bringing you down? Huntdora is a job searching app which focuses on uplifting the job seeker through design colours and user experience.',
+    info2: `Solo Project built with ReactJS - Typescript - Material UI - Progressive web app ( PWA ) - Express.js - MongoDB - Auth0 JWT - Node.js`,
+    url: 'https://huntdora.netlify.app/',
+    repo: 'https://github.com/serendatapy/huntdora', // if no repo, the button will not show up
   },
   {
     id: nanoid(),

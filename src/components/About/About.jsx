@@ -1,6 +1,7 @@
 import React, { useContext, useState, useEffect } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Container, Row, Col } from 'react-bootstrap';
+import { Link } from 'react-scroll';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
@@ -64,6 +65,11 @@ const About = () => {
             </Fade>
           </Col>
         </Row>
+        <span className="back-to-top">
+          <Link to="hero" smooth duration={1000}>
+            <i className="fa fa-angle-up fa-2x" aria-hidden="true" color="black" />
+          </Link>
+        </span>
       </Container>
     </section>
   );
