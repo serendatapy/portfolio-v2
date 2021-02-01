@@ -22,7 +22,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Developer Portfolio`,
+        name: `serendatapy Portfolio`,
         short_name: `Portfolio`,
         start_url: `/`,
         background_color: `#fff`,
