@@ -5,7 +5,7 @@ import { Link } from 'react-scroll';
 import Title from '../Title/Title';
 import AboutImg from '../Image/AboutImg';
 import PortfolioContext from '../../context/context';
-import downloadFile from '../../../public/static/Alejandro.Rene.Valdivia.UK.pdf';
+import downloadFile from '../../assets/Alejandro.Rene.Valdivia.UK.pdf';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
