@@ -18,12 +18,12 @@ export const heroData = {
 // ABOUT DATA
 export const aboutData = {
   img: 'profile-square.jpg',
-  paragraphOne: `Of course you've heard - "With great power comes great responsibility" - but have you ever thought that the other way round is also true? - "With great responsability comes great power" - A chance to make a difference. That is the possibility that's there for the taking!`,
+  paragraphOne: `Of course you've heard - "With great power comes great responsibility" - but have you ever thought that the inverse is also true? - "With great responsability comes great power" - A chance to make a difference. That is the possibility that's there for the taking!`,
   paragraphTwo:
     'I was born in Miami, grew up in South America and England and picked up a wonderful extended family in Italy. My passion for computing started when I was a teenager & then studied AI at university',
   paragraphThree:
     'When I’m not continuing my coding journey, I love doing woodwork with my wife, trekking & travelling, cooking italian & playing tabletop games with my friends.',
-  resume: 'https://www.linkedin.com/in/alejandro-r-valdivia/', // if no resume, the button will not show up
+  resume: '../../public/static/Alejandro.Rene.Valdivia.UK.pdf', // if no resume, the button will not show up
 };
 
 // PROJECTS DATA
